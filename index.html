@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11191f"><meta name="description" content="NOVACORE verifies parcel measurements, explains freight charges, and prepares evidence-backed courier disputes.">
+  <title>NOVACORE — Freight intelligence</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./engine.js"></script><script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to workspace</a>
+  <aside class="sidebar">
+    <a class="brand" href="#overview" aria-label="NOVACORE home"><span class="brand-mark">N</span><span>NOVACORE<small>FREIGHT INTELLIGENCE</small></span></a>
+    <div class="workspace"><span class="workspace-icon">N</span><div>Nova D2C<small>Demo workspace</small></div><span class="workspace-chevron">⌄</span></div>
+    <span class="nav-label">WORKSPACE</span>
+    <nav aria-label="Main navigation" id="nav"></nav>
+    <div class="sidebar-bottom"><div class="station"><span class="station-dot"></span><span>One station. Every parcel.<small>Measure with confidence.</small></span></div><button class="pitch-link" data-action="pitch"><span>✦</span> Judge walkthrough</button><div class="user"><span class="avatar">JD</span><div>Judge demo<small>Local demo · no sign-in</small></div></div></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><button class="mobile-menu" aria-label="Toggle navigation" aria-expanded="false" data-action="menu">☰</button><div class="breadcrumb">Workspace <span>/</span> <strong id="breadcrumb">Overview</strong></div><div class="top-actions"><span class="demo-tag">DEMO DATA</span><button class="quiet" data-action="reset">Reset demo</button><button class="icon-button" data-action="help" aria-label="About this demo">?</button></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer><span>NOVACORE <span class="footer-dot">·</span> Measure. Validate. Reconcile.</span><span>Browser-local demo <span class="footer-dot">·</span> Illustrative contract & data</span></footer>
+  </div>
+  <dialog id="capture-dialog" class="wide-dialog"></dialog>
+  <dialog id="detail-dialog" class="wide-dialog"></dialog>
+  <dialog id="import-dialog"></dialog>
+  <dialog id="help-dialog"><div class="dialog-head"><div><span class="eyebrow">THE MVP</span><h2>Built to prove the workflow.</h2></div><button class="icon-button" data-close aria-label="Close">×</button></div><div class="dialog-body"><p>NOVACORE connects packed-parcel measurements to a versioned freight contract, then compares the expected charge with courier invoices.</p><p>This static demo stores records and uploaded evidence on this browser only. Sample shipments, contracts, invoices, and claim outcomes are illustrative. It does not connect to couriers, send claims, verify credits, or control a scale.</p><p>Only cases explicitly marked <strong>Credit confirmed</strong> contribute to the recovered amount. Packaging savings are estimates that require a damage-and-returns pilot.</p><p>For a pilot: connect a scale and barcode scanner, secure shared evidence storage, add real rate cards, and confirm credits against courier statements.</p></div></dialog>
+  <dialog id="confirm-dialog"><div class="dialog-head"><h2>Reset the demo?</h2><button class="icon-button" data-close aria-label="Close">×</button></div><div class="dialog-body"><p>This removes shipments, photos, and edits saved in this browser, and restores the sample workspace.</p><div class="form-actions"><button class="button secondary" data-close>Keep my changes</button><button class="button danger" data-action="confirm-reset">Reset demo</button></div></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
