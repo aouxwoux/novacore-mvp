@@ -12,6 +12,8 @@ Push these files to the `main` branch. In repository **Settings → Pages**, sel
 
 ## Judge demo: 3 minutes
 
+**[Watch the product demo](https://aouxwoux.github.io/novacore-mvp/media/novacore-demo.mp4)** — actual MVP interactions, chapter captions, and an original electronic soundtrack. Use **Watch demo** in the site header or Judge walkthrough. The [transcript](media/demo-transcript.txt) and [English captions](media/demo-captions.vtt) are included. Seed data and simulated credits are explicitly labeled.
+
 1. Open **Judge walkthrough**. Explain the problem: courier adjustments need to be checked against sealed-parcel measurements.
 2. Open **Capture a parcel**. The default 0.6 kg, 30 × 20 × 15 cm parcel has 1.8 kg volumetric weight, rounds to 2 kg billable weight, and costs ₹120 under the illustrative contract. Save its measurement.
 3. Inspect **NV-1001**. Expected ₹120; invoiced ₹160 at 3 kg. The ₹40 difference is a candidate overcharge. Download its evidence packet. Photos can be attached; seed records intentionally do not invent photographic evidence.

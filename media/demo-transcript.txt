@@ -1,0 +1,40 @@
+NOVACORE product demo
+
+All sample shipments, contract prices, and claim outcomes are illustrative. Claim statuses are manually recorded. No claim is sent to a courier. Packaging savings require validation of damage and return costs.
+
+THE WORKSPACE
+Know what you should pay. Prove what you shouldn’t.
+
+MEASURE & VALIDATE
+Capture a sealed parcel. The contract calculates the rest.
+
+MEASUREMENT SAVED
+1.8 kg volumetric. 2 kg billable. ₹120 expected freight.
+
+INVOICE RECONCILIATION
+Match courier invoice rows to measured shipments.
+
+EXCEPTIONS FOUND
+Three rows matched. One new billing difference flagged.
+
+EXPLAINABLE DISPUTE
+Expected ₹120. Courier billed ₹160. Review the ₹40 difference.
+
+SHIPMENT-SPECIFIC EVIDENCE
+Export the rate snapshot, invoice, calculation, and attached photos.
+
+CREDIT CONFIRMED · SIMULATION
+Only a recorded, referenced credit counts as recovered.
+
+3D CRATE BROWSER
+Compare cartons at the same scale. Find the wasted space.
+
+SAME PRODUCT. SMALLER PARCEL.
+50% less parcel volume. Protection still needs a physical check.
+
+A SECOND PROFIT LEVER
+₹40 less freight − ₹5 extra packaging = ₹35 estimated net saving.
+
+Pay for the parcel. Keep the proof.
+One station. Every parcel.
+https://aouxwoux.github.io/novacore-mvp/
